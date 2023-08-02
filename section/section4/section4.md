@@ -1,4 +1,4 @@
-# TypeScript & Modern JavaScript
+# 4. TypeScript & Modern JavaScript
 
 ## 1. var vs let vs const
 
@@ -32,6 +32,8 @@
     numbers.reduce((acc, cur) => acc + cur, 0);
   ```
 
+<br>
+
 ## 6. 배열 및 객체 비구조화 할당
 
 - 비구조화 할당 시 나머지 매개변수 활용 가능
@@ -59,6 +61,8 @@
   // person.name 값이 lastName에 할당됨
   const { name: lastName, age } = person;
   ```
+
+<br>
 
 ## 7. 코드 컴파일 및 마무리
 
