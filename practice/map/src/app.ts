@@ -46,3 +46,10 @@ function searchAddressHandler(event: Event) {
 }
 
 form.addEventListener('submit', searchAddressHandler);
+
+// API 로드
+const script = document.createElement('script');
+
+script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&callback=initMap`;
+script.async = true;
+document.head.appendChild(script);
